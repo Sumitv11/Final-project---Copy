@@ -1,0 +1,79 @@
+/* City.module.css */
+.container {
+    padding: 20px;;
+  }
+  
+  .addButton {
+    margin-bottom: 2px;
+  }
+  
+  .tableContainer {
+    margin-top: 2px;
+  }
+  
+  .table {
+    min-width: 650px;
+  }
+  
+  .modalContainer {
+    position: absolute;
+    top: 50%;
+    left: 50%; 
+    transform: translate(-50%, -50%);
+    width: 400px; 
+  }
+  
+  .modalContent {
+    padding: 30px;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  }
+  
+  .textField {
+    margin-bottom: 15px;
+  }
+  
+  .button {
+    margin-top: 15px;
+    background-color: #1976d2;
+    color: #fff;
+  }
+  
+  .buttonSave {
+    background-color: #4caf50;
+  }
+  
+  .buttonDelete {
+    background-color: #f44336;
+  }
+  
+  .buttonCancel {
+    background-color: #9e9e9e;
+  }
+  
+  .button:hover {
+    background-color: #1565c0;
+  }
+  
+  .buttonSave:hover {
+    background-color: #388e3c;
+  }
+  
+  .buttonDelete:hover {
+    background-color: #d32f2f;
+  }
+  
+  .buttonCancel:hover {
+    background-color: #757575;
+  }
+  .field{
+    width:100%;
+  }
+
+  .buttonAlign{
+    display: flex;
+    width: 80%;
+    align-items: center;
+    justify-content: space-evenly;
+  }

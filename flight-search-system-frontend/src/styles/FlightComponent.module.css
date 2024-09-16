@@ -1,0 +1,35 @@
+.flightCard {
+  width: 100%;
+  border-radius: 4px;
+  transition: all 0.2s ease-in-out;
+  overflow: hidden;
+}
+
+.flightCardContent {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+
+}
+
+.flightCardContent:hover {
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
+  /* transform: scale(1.02); */
+}
+
+.flightCardtitle {
+  font-weight: bold;
+  margin-bottom: 8px;
+}
+
+.flightCarddetails {
+  margin-bottom: 4px;
+  font-size: 0.875rem;
+  color: #666;
+}
+
+.flightCardprice {
+  color: #333;
+  font-weight: bold;
+  margin-top: 8px;
+}
